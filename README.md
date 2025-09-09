@@ -19,6 +19,15 @@ This is a static website that can be deployed on:
 - Netlify
 - Any static hosting service
 
+### Vercel Deployment (Recommended)
+
+1. Go to [vercel.com](https://vercel.com)
+2. Click "Import Project"
+3. Import your GitHub repository: `markkhrapko/orbit_website`
+4. Click "Deploy" (no configuration needed)
+
+Your site will be available at a Vercel URL immediately.
+
 ### GitHub Pages Deployment
 
 1. Go to Settings → Pages
