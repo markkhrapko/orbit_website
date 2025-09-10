@@ -46,18 +46,69 @@ main {
   font-size: 16px;
   line-height: 1.8;
   position: relative;
+  word-break: break-word;
 }
 
-@media (max-width: 600px) {
+/* Mobile styles */
+@media (max-width: 768px) {
+  /* Adjust main container padding for mobile */
+  main {
+    padding: 80px 16px 40px;
+  }
+  
+  /* Letter container adjustments */
   .letter {
-    padding: 40px 30px;
+    padding: 40px 24px;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* Logo adjustments */
+  .logo {
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+  }
+  
+  /* Typography adjustments */
+  .letter {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  
+  .greeting {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  /* Paragraph spacing */
+  .letter p {
+    margin-bottom: 16px;
+  }
+  
+  /* Contact section */
+  .contact {
+    margin-top: 32px;
+    font-size: 13px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 400px) {
+  main {
+    padding: 60px 12px 30px;
+  }
+  
+  .letter {
+    padding: 32px 20px;
   }
   
   .logo {
-    width: 28px;
-    height: 28px;
-    top: 25px;
-    right: 25px;
+    width: 30px;
+    height: 30px;
+    top: 16px;
+    right: 16px;
   }
 }
 
